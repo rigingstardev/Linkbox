@@ -1,0 +1,5 @@
+@include('includes.admin_header')
+@include('includes.admin_sidebar')
+@yield('content')
+@include('includes.admin_footer')
+@yield('page_scripts')

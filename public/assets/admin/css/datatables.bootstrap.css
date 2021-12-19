@@ -1,0 +1,21 @@
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 40px;
+    margin-left: -125px;
+    margin-top: -15px;
+    padding: 15px 0 30px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #444;
+    font-size: 12px;
+    background: url("../images/loading_bar.gif") no-repeat center center #fff;
+    box-shadow: 2px 2px 5px #444;
+    -moz-box-shadow: 2px 2px 5px #444;
+    -webkit-box-shadow: 2px 2px 5px #444;
+    z-index: 9999;
+    text-indent: -99999px;
+}
+
